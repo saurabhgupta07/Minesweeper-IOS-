@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3BCF50119E76B98006C3682 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF50019E76B98006C3682 /* mine.png */; };
+		E3BCF57019E7D1AD006C3682 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56819E7D1AD006C3682 /* number1.png */; };
+		E3BCF57119E7D1AD006C3682 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56919E7D1AD006C3682 /* number2.png */; };
+		E3BCF57219E7D1AD006C3682 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56A19E7D1AD006C3682 /* number3.png */; };
+		E3BCF57319E7D1AD006C3682 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56B19E7D1AD006C3682 /* number4.png */; };
+		E3BCF57419E7D1AD006C3682 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56C19E7D1AD006C3682 /* number5.png */; };
+		E3BCF57519E7D1AD006C3682 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56D19E7D1AD006C3682 /* number6.png */; };
+		E3BCF57619E7D1AD006C3682 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56E19E7D1AD006C3682 /* number7.png */; };
+		E3BCF57719E7D1AD006C3682 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF56F19E7D1AD006C3682 /* number8.png */; };
+		E3BCF57D19E80B62006C3682 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCF57C19E80B62006C3682 /* flag.png */; };
 		E3C8742419E478C100D1C784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C8742319E478C100D1C784 /* Foundation.framework */; };
 		E3C8742619E478C100D1C784 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C8742519E478C100D1C784 /* CoreGraphics.framework */; };
 		E3C8742819E478C100D1C784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C8742719E478C100D1C784 /* UIKit.framework */; };
@@ -22,6 +32,7 @@
 		E3C8744819E478C100D1C784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C8742719E478C100D1C784 /* UIKit.framework */; };
 		E3C8745019E478C100D1C784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3C8744E19E478C100D1C784 /* InfoPlist.strings */; };
 		E3C8745219E478C100D1C784 /* MinesweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C8745119E478C100D1C784 /* MinesweeperTests.m */; };
+		E3C8745D19E484EB00D1C784 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C8745C19E484EB00D1C784 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3BCF50019E76B98006C3682 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56819E7D1AD006C3682 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56919E7D1AD006C3682 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56A19E7D1AD006C3682 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56B19E7D1AD006C3682 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number4.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56C19E7D1AD006C3682 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number5.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56D19E7D1AD006C3682 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number6.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56E19E7D1AD006C3682 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number7.png; sourceTree = SOURCE_ROOT; };
+		E3BCF56F19E7D1AD006C3682 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number8.png; sourceTree = SOURCE_ROOT; };
+		E3BCF57C19E80B62006C3682 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = SOURCE_ROOT; };
 		E3C8742019E478C100D1C784 /* Minesweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minesweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C8742319E478C100D1C784 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3C8742519E478C100D1C784 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +77,8 @@
 		E3C8744D19E478C100D1C784 /* MinesweeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinesweeperTests-Info.plist"; sourceTree = "<group>"; };
 		E3C8744F19E478C100D1C784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3C8745119E478C100D1C784 /* MinesweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinesweeperTests.m; sourceTree = "<group>"; };
+		E3C8745B19E484EB00D1C784 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		E3C8745C19E484EB00D1C784 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +145,8 @@
 				E3C8743919E478C100D1C784 /* FirstViewController.m */,
 				E3C8743B19E478C100D1C784 /* SecondViewController.h */,
 				E3C8743C19E478C100D1C784 /* SecondViewController.m */,
+				E3C8745C19E484EB00D1C784 /* MyView.m */,
+				E3C8745B19E484EB00D1C784 /* MyView.h */,
 				E3C8743E19E478C100D1C784 /* Images.xcassets */,
 				E3C8742A19E478C100D1C784 /* Supporting Files */,
 			);
@@ -131,6 +156,16 @@
 		E3C8742A19E478C100D1C784 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3BCF57C19E80B62006C3682 /* flag.png */,
+				E3BCF56819E7D1AD006C3682 /* number1.png */,
+				E3BCF56919E7D1AD006C3682 /* number2.png */,
+				E3BCF56A19E7D1AD006C3682 /* number3.png */,
+				E3BCF56B19E7D1AD006C3682 /* number4.png */,
+				E3BCF56C19E7D1AD006C3682 /* number5.png */,
+				E3BCF56D19E7D1AD006C3682 /* number6.png */,
+				E3BCF56E19E7D1AD006C3682 /* number7.png */,
+				E3BCF56F19E7D1AD006C3682 /* number8.png */,
+				E3BCF50019E76B98006C3682 /* mine.png */,
 				E3C8742B19E478C100D1C784 /* Minesweeper-Info.plist */,
 				E3C8742C19E478C100D1C784 /* InfoPlist.strings */,
 				E3C8742F19E478C100D1C784 /* main.m */,
@@ -233,9 +268,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BCF50119E76B98006C3682 /* mine.png in Resources */,
+				E3BCF57719E7D1AD006C3682 /* number8.png in Resources */,
 				E3C8743F19E478C100D1C784 /* Images.xcassets in Resources */,
+				E3BCF57619E7D1AD006C3682 /* number7.png in Resources */,
+				E3BCF57419E7D1AD006C3682 /* number5.png in Resources */,
+				E3BCF57219E7D1AD006C3682 /* number3.png in Resources */,
+				E3BCF57019E7D1AD006C3682 /* number1.png in Resources */,
+				E3BCF57319E7D1AD006C3682 /* number4.png in Resources */,
 				E3C8742E19E478C100D1C784 /* InfoPlist.strings in Resources */,
+				E3BCF57119E7D1AD006C3682 /* number2.png in Resources */,
+				E3BCF57D19E80B62006C3682 /* flag.png in Resources */,
 				E3C8743719E478C100D1C784 /* Main.storyboard in Resources */,
+				E3BCF57519E7D1AD006C3682 /* number6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +303,7 @@
 				E3C8743419E478C100D1C784 /* AppDelegate.m in Sources */,
 				E3C8743A19E478C100D1C784 /* FirstViewController.m in Sources */,
 				E3C8743019E478C100D1C784 /* main.m in Sources */,
+				E3C8745D19E484EB00D1C784 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Minesweeper/Minesweeper-Prefix.pch";
 				INFOPLIST_FILE = "Minesweeper/Minesweeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Minesweeper/Minesweeper-Prefix.pch";
 				INFOPLIST_FILE = "Minesweeper/Minesweeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -419,6 +467,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MinesweeperTests/MinesweeperTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -437,6 +486,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Minesweeper/Minesweeper-Prefix.pch";
 				INFOPLIST_FILE = "MinesweeperTests/MinesweeperTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +512,7 @@
 				E3C8745719E478C100D1C784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3C8745819E478C100D1C784 /* Build configuration list for PBXNativeTarget "MinesweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +521,7 @@
 				E3C8745A19E478C100D1C784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
